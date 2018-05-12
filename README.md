@@ -31,9 +31,8 @@ Step5: The game will start, enter 2 players name and enjoy the game. Note: valid
 
 Once player runs the program, they should enter their name:
 
-say Player-1 : *avinash*
-
-    Player 2 : *ankur*
+say Player1 : ***avinash***
+    Player2 : ***ankur***
 
 ![game-start-input-name](https://github.com/avinashav/ticTacToe-Cpp-game-simulator/blob/master/Screenshots/inputName.png)
 
@@ -49,25 +48,26 @@ then Player1 enters 5.
 
 ![player-Input-1-3-5](https://github.com/avinashav/ticTacToe-Cpp-game-simulator/blob/master/Screenshots/afterGivingInput135.png)
 
-Player1 - 1
+Player1 - **1**
 
-Player2 - 3
+Player2 - **3**
 
-Player1 - 5
+Player1 - **5**
 
-Player2 - 6
+Player2 - **6**
 
-Player1 - 9
+Player1 - **9**
 
 Player1 made a strike-through diagonally (cell : **1-3-9**) and WON
 
 ![player-Input-1-3-5-6-9-won](https://github.com/avinashav/ticTacToe-Cpp-game-simulator/blob/master/Screenshots/givingInput13569.png)
 
-Draw condition when neither player1 or player2 wins.
+Game draw when neither player1 or player2 wins.
 
 ![game-Draw](https://github.com/avinashav/ticTacToe-Cpp-game-simulator/blob/master/Screenshots/GameDraw.png)
 
-***Accepted input is keys between 1 to 9***
+As mentioned in *RULES*
+***Accepted input keys are numeric keys between 1 to 9***
 
 ![wrong-Key-Termination](https://github.com/avinashav/ticTacToe-Cpp-game-simulator/blob/master/Screenshots/invalidKey.png)
 
